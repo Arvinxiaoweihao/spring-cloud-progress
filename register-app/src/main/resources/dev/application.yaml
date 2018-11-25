@@ -3,15 +3,12 @@ spring:
     name: register-app
 server:
   port: 10086
-
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
-  server:
-    wait-time-in-ms-when-sync-empty: 0
   instance:
-    hostname: localhost
+    hostname: 127.0.0.1
     prefer-ip-address: true
