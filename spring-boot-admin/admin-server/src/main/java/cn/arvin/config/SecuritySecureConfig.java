@@ -1,4 +1,4 @@
-package cn.arvin.admin.config;
+package cn.arvin.config;
 
 import de.codecentric.boot.admin.server.config.AdminServerProperties;
 import org.springframework.context.annotation.Configuration;
@@ -7,7 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 
 /**
- * @author Administrator
+ * @author weihao.xiao
  */
 @Configuration
 public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {

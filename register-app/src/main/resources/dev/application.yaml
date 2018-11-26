@@ -2,7 +2,7 @@ spring:
   application:
     name: register-app
 server:
-  port: 10086
+  port: 10088
 eureka:
   client:
     register-with-eureka: false
